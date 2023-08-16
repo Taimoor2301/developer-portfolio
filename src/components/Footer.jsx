@@ -1,5 +1,5 @@
 import git from "../assets/Social Icons/Github.svg";
-import linkdin from "../assets/Social Icons/Linkedin.svg";
+import linkdin from "../assets/Social Icons/link.svg";
 import twitter from "../assets/Social Icons/Twitter.svg";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/all";
