@@ -11,8 +11,8 @@ function App() {
       <Welcome tl={tl} />
       <Nav tl={tl} />
       <Home tl={tl} />
-      <GraySec />
-      <Footer />
+      <GraySec tl={tl} />
+      <Footer tl={tl} />
     </div>
   );
 }

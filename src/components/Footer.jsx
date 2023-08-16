@@ -6,17 +6,16 @@ import { ScrollTrigger } from "gsap/all";
 gsap.registerPlugin(ScrollTrigger);
 import { useEffect, useRef } from "react";
 
-function Footer() {
+function Footer({ tl }) {
   const main = useRef(null);
-  const tl = useRef(null);
 
   useEffect(() => {
     const ctx = gsap.context(() => {
-      tl.current = gsap.timeline().from(".item", {
+      tl.from(".item", {
         scrollTrigger: {
           trigger: ".item",
-          start: "top 70%",
-          end: "top 50%",
+          start: "top 80%",
+          end: "top 60%",
           scrub: 1,
         },
         x: -100,
